@@ -1,0 +1,6 @@
+configmap:
+    db_host: expense-dev-mysql.cij0q0ew466u.us-east-1.rds.amazonaws.com
+deployment:
+  replicas: 1
+  imageURL: 444152781209.dkr.ecr.us-east-1.amazonaws.com/expense/backend:1.0.0
+  imageVersion: IMAGE_VERSION
